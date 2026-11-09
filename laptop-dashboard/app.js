@@ -1,3 +1,15 @@
+/*
+Copyright (c) 2026 Sabareesh M (saba1207B). All Rights Reserved.
+
+This source code is proprietary and confidential.
+
+Unauthorized copying, redistribution, modification, or use — including
+any use for artificial intelligence / machine learning training —
+is strictly prohibited.
+
+See the LICENSE and COPYRIGHT files in the repository root for full terms.
+*/
+
 /* CodeAlpha Object Detection & Tracking — laptop dashboard controller. */
 const API_BASE = window.location.port === '5000' ? window.location.origin : (window.location.hostname ? `http://${window.location.hostname}:5000` : 'http://localhost:5000');
 const state={serverConnected:false,phoneConnected:false,detectionActive:false,viewMode:'processed',isRecording:false,selectedClasses:['all'],apiRttMs:null,stats:{},detections:[]};
