@@ -1,3 +1,6 @@
+// Copyright (c) 2026 Sabareesh M (saba1207B). All Rights Reserved.
+// All rights reserved. No public license is granted.
+
 plugins {
   alias(libs.plugins.android.application)
   alias(libs.plugins.kotlin.compose)
